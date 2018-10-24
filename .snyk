@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - cloudformation-deploy > grunt > findup-sync > glob > minimatch:
+        patched: '2018-10-24T05:22:40.185Z'
+    - cloudformation-deploy > grunt > minimatch:
+        patched: '2018-10-24T05:22:40.185Z'
+    - cloudformation-deploy > grunt > glob > minimatch:
+        patched: '2018-10-24T05:22:40.185Z'
