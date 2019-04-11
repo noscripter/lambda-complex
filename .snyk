@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - cloudformation-deploy > grunt-eslint > eslint > inquirer > lodash:
+        patched: '2019-04-11T02:10:47.341Z'
+  'npm:minimatch:20160620':
+    - cloudformation-deploy > grunt > findup-sync > glob > minimatch:
+        patched: '2019-04-11T02:10:47.341Z'
+    - cloudformation-deploy > grunt > minimatch:
+        patched: '2019-04-11T02:10:47.341Z'
+    - cloudformation-deploy > grunt > glob > minimatch:
+        patched: '2019-04-11T02:10:47.341Z'
